@@ -1,0 +1,193 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class TaskManager : MonoBehaviour
+{
+    public static TaskManager instance;
+
+    public struct ingtask
+    {
+        public Task thistask;
+        public bool isfinished;
+    }
+
+    public List<ingtask> tasks_ing = new List<ingtask>();
+    public List<Task> tasks_unstart = new List<Task>();
+    public List<Task> tasks_ended = new List<Task>();
+
+
+    private void Awake()
+    {
+        if(instance!=null)
+        {
+            GameObject.Destroy(instance);
+        }
+        instance = this;
+        if(MainMenu.isnewgame==true)
+        {
+            addtaskintoing(0,true);
+        }
+    }
+
+    public void finishtask(Task task)
+    {
+        //reward
+        BagManager.instance.editmoney(task.reward_money);
+        Player.instance.getexp(task.reward_exp);
+        foreach (Item thisitem in task.reward_item)
+        {
+            BagManager.instance.edititem(thisitem);
+        }
+        //����������
+        removetaskfroming(task);
+        //������һ������
+        if(task.nextindex!=-1)
+          addtaskintoing(task.nextindex);
+        //����֧��
+        foreach (Task branchline in task.branchlines)
+        {
+            addtaskintoing(branchline.taskindex);
+        }
+        //npcs
+        foreach (NPC thisnpc in task.npcs_enable)
+        {
+            GameObject thisnpcprefab = thisnpc.npcprefab;
+
+            GameObject thisnpcobj = Instantiate<GameObject>(thisnpcprefab, thisnpc.parent.transform, thisnpc.position);
+        }
+        foreach (NPC thisnpc in task.npcs_dissable)
+        {
+            GameObject thisnpcobj;
+            foreach (GameObject thisobj in GameObject.FindGameObjectsWithTag("NPC"))
+            {
+                if (thisobj.GetComponent<NPCinfo>().thisnpc.name == thisnpc.name)
+                {
+                    thisnpcobj = thisobj;
+                    GameObject.Destroy(thisnpcobj);
+                    break;
+                }
+            }
+        }
+        //scenes
+        //organs
+
+    }
+
+    public void addtaskintoing(int taskindex,bool iffinished=false)
+    {
+        if (taskindex != -1)
+        {
+            bool hasfound = false; ;
+            Task thistask=null;
+            foreach(Task taskselected in tasks_unstart)
+            {
+                if(taskselected.taskindex==taskindex)
+                {
+                    thistask = taskselected;
+                    hasfound = true;
+                    break;
+                }
+            }
+            if (!hasfound)
+                return;
+            ingtask taskadded = new ingtask();
+            taskadded.thistask = thistask;
+            taskadded.isfinished = iffinished;
+
+            tasks_ing.Add(taskadded);
+            tasks_unstart.Remove(thistask);
+        }
+    }
+    public void removetaskfroming(Task task)
+    {
+        tasks_ended.Add(task);
+        foreach (var ingtask in tasks_ing)
+        {
+            if (ingtask.thistask == task)
+            {
+                tasks_ing.Remove(ingtask);//����Ϊ�������ض���bug��
+                break;
+            }
+        }
+    }
+
+    //�浵
+    public void savetask(Save save)
+    {
+        foreach(ingtask thistask in tasks_ing)
+        {
+            save.addingtask(thistask.thistask.taskindex, thistask.isfinished);
+        }
+        /*foreach(Task thistask in tasks_unstart)       //����洢
+        {
+            save.tasks_unstart.Add(thistask.taskname);
+        }*/
+        foreach (Task thistask in tasks_ended)
+        {
+            save.tasks_ended.Add(thistask.taskindex);
+        }
+    }
+    public void loadtask(Save save)
+    {
+        foreach(var ingtaskinsave in save.tasks_ing)
+        {
+            addtaskintoing(ingtaskinsave.thistaskindex, ingtaskinsave.isfinished);
+        }
+        foreach(int taskinsave in save.tasks_ended)
+        {
+            loadtaskintoended(taskinsave);
+        }
+    }
+    public void loadtaskintoended(int taskindex)
+    {
+        if (taskindex != -1)
+        {
+            Task thistask = null;
+            foreach (Task taskselected in tasks_unstart)
+            {
+                if (taskselected.taskindex == taskindex)
+                {
+                    thistask = taskselected;
+                    break;
+                }
+            }
+
+            tasks_ended.Add(thistask);
+            tasks_unstart.Remove(thistask);
+        }
+    }
+
+    public ingtask findingtaskbyindex(int taskindex)
+    {
+        ingtask targettask;
+
+        ingtask nulltask = new ingtask();
+        nulltask.thistask = null;
+        nulltask.isfinished = false;
+
+        targettask = nulltask;
+        foreach(ingtask thistask in tasks_ing)
+        {
+            if(thistask.thistask.taskindex==taskindex)
+            {
+                targettask = thistask;
+            }
+        }
+
+        return targettask;
+    }
+
+    //�¼��л�(�Ժ��ٸĽ�)
+
+    public void taskchange(int i)
+    {
+        if(i==1)
+        {
+            ingtask thistask=findingtaskbyindex(1);
+            thistask.isfinished = true;
+            SaveFunction.instance.savegame();
+        }
+    }
+    
+}

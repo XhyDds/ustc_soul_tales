@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26c67803236a5c44949fd170c30aa80, type: 3}
+  m_Name: 0
+  m_EditorClassIdentifier: 
+  taskindex: 0
+  taskname: "\u65B0\u624B\u4EFB\u52A1"
+  lastindex: -1
+  lastname: 
+  nextindex: 1
+  nextname: "\u6218\u80DC\u68A6\u9B47"
+  branchlines: []
+  reward_item:
+  - {fileID: 11400000, guid: 1464a1626e583094a85d7280c5205588, type: 2}
+  - {fileID: 11400000, guid: 5bcea68ff42bf1c41bee312dbba1826f, type: 2}
+  - {fileID: 11400000, guid: e4f97f8178a215c48a95b82ae1d68144, type: 2}
+  reward_money: 100
+  reward_exp: 100
+  taskinfo_unfinished: 
+  taskinfo_finished: "\u7531\u4E8E\u65F6\u95F4\u5306\u4FC3\uFF0C\u6765\u4E0D\u53CA\u5236\u4F5C\u4EFB\u52A1\u4E86\uFF0C\u8FD9\u91CC\u6709\u4E00\u628A\u5251\u548C\u4E00\u4E2A\u6CD5\u6756\uFF0C\u795D\u4F60\u6E38\u620F\u6109\u5FEB\u3002"
+  npcs_constant: []
+  npcs_enable: []
+  npcs_dissable: []
+  scenes_enable: []
+  scenes_disable: []
+  organs: []

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - EnemyWizard
+  - Ground
+  - Task
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PlayerObject
+  - Water
+  - UI
+  - Background
+  - EnemyObject
+  - Zodiac Aries
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackBackGround
+    uniqueID: 3382733409
+    locked: 0
+  - name: Background
+    uniqueID: 3499249295
+    locked: 0
+  - name: Ground
+    uniqueID: 4294798665
+    locked: 0
+  - name: Object
+    uniqueID: 1157278533
+    locked: 0
+  - name: Enemy
+    uniqueID: 4153548685
+    locked: 0
+  - name: Player
+    uniqueID: 4055112585
+    locked: 0
+  - name: Sp
+    uniqueID: 3857061843
+    locked: 0
+  - name: WorldCamera
+    uniqueID: 3399625095
+    locked: 0

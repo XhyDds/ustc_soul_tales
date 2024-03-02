@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06e42a7e08d6fe429d069caf331262d, type: 3}
+  m_Name: Evil Wizard
+  m_EditorClassIdentifier: 
+  enemyindex: 0
+  enemyname: Evil Wizard
+  enemysprite: {fileID: 4723107735738678597, guid: 6fc66c021eec74942b4e71a3fde4dc04, type: 3}
+  isboss: 0
+  health: 50
+  strength: 5
+  defence: 0
+  rewardexp: 10
+  rewardmoney: 5
+  enemyinfo: "\u6211\u4EEC\u7684\u7B2C\u4E00\u4E2A\u5C0F\u602A\uFF0C\u59D4\u5C48\u4ED6\u4E86"

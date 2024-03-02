@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366d03bbe74fd9544b1145a21021e72d, type: 3}
+  m_Name: Skill1_sw
+  m_EditorClassIdentifier: 
+  ID: 1
+  SkillName: "\u5723\u5149\u65A9"
+  SkillImage: {fileID: 21300000, guid: f6b041d9ac094c84ea00fb401e58e4d3, type: 3}
+  key: 121
+  multiple: 400
+  manaconsumed: 15
+  cooldown: 7
+  SkillInfo: "\u51DD\u805A\u5723\u5149\u529B\u91CF\u7684\u4E00\u51FB\uFF0C\u9020\u6210400%\u7684\u4F24\u5BB3\u3002\u51B7\u53747\u79D2\u3002"

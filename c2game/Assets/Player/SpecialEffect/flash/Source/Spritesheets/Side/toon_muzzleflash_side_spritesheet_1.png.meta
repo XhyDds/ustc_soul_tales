@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: e91c78da749a5d44db424d8dbc3d09d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: toon_muzzleflash_side_spritesheet_1_0
+  - first:
+      213: 21300002
+    second: toon_muzzleflash_side_spritesheet_1_1
+  - first:
+      213: 21300004
+    second: toon_muzzleflash_side_spritesheet_1_2
+  - first:
+      213: 21300006
+    second: toon_muzzleflash_side_spritesheet_1_3
+  - first:
+      213: 21300008
+    second: toon_muzzleflash_side_spritesheet_1_4
+  - first:
+      213: 21300010
+    second: toon_muzzleflash_side_spritesheet_1_5
+  - first:
+      213: 21300012
+    second: toon_muzzleflash_side_spritesheet_1_6
+  - first:
+      213: 21300014
+    second: toon_muzzleflash_side_spritesheet_1_7
+  - first:
+      213: 21300016
+    second: toon_muzzleflash_side_spritesheet_1_8
+  - first:
+      213: -6012244041786240834
+    second: toon_muzzleflash_side_spritesheet_1_0
+  - first:
+      213: 6134353882016672366
+    second: toon_muzzleflash_side_spritesheet_1_1
+  - first:
+      213: -2698685640632721287
+    second: toon_muzzleflash_side_spritesheet_1_2
+  - first:
+      213: -6414893735086436516
+    second: toon_muzzleflash_side_spritesheet_1_3
+  - first:
+      213: 3797991495783002653
+    second: toon_muzzleflash_side_spritesheet_1_4
+  - first:
+      213: -2919026196378327488
+    second: toon_muzzleflash_side_spritesheet_1_5
+  - first:
+      213: 3345248962582189555
+    second: toon_muzzleflash_side_spritesheet_1_6
+  - first:
+      213: -3233806134416963693
+    second: toon_muzzleflash_side_spritesheet_1_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2944
+        width: 1356
+        height: 940
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_flash1
+        guid: 289ccf60ddd2a644dbc137e9f01f7492
+        position: {x: 126.16605, y: 469.9851, z: 0}
+        rotation: {x: 0, y: 0, z: -0.0076311044, w: 0.9999709}
+        length: 310.17178
+        parentId: -1
+        color:
+          serializedVersion: 2
+          rgba: 4278190335
+      - name: bone_flash1_1
+        guid: 2c3c742dbafab884abd15f2228cd19a3
+        position: {x: 374.37122, y: 0.0006079444, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+        length: 383.26688
+        parentId: 2
+        color:
+          serializedVersion: 2
+          rgba: 4278255615
+      - name: bone_flash1_2
+        guid: bfebf198e76149a489e9198909a2d7f2
+        position: {x: 310.17178, y: -0.00006709282, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+        length: 374.37122
+        parentId: 0
+        color:
+          serializedVersion: 2
+          rgba: 4278255360
+      spriteID: eb05f52f5e7309ca0800000000000000
+      internalID: -6012244041786240834
+      vertices:
+      - {x: 199.24399, y: 68.91992}
+      - {x: 268.768, y: 144.45996}
+      - {x: 351.616, y: 207.59595}
+      - {x: 462.66, y: 225.68408}
+      - {x: 575.83203, y: 238.71191}
+      - {x: 690.42, y: 225.45996}
+      - {x: 780.428, y: 216}
+      - {x: 859.88, y: 247.94409}
+      - {x: 963.124, y: 301.344}
+      - {x: 1070.572, y: 335.57202}
+      - {x: 1180.324, y: 367.87988}
+      - {x: 1235.852, y: 395.85596}
+      - {x: 1292, y: 470.45996}
+      - {x: 1232.396, y: 548.83594}
+      - {x: 1170.332, y: 580.448}
+      - {x: 1060.264, y: 611.4241}
+      - {x: 952.464, y: 644.6719}
+      - {x: 847.792, y: 697.572}
+      - {x: 788.396, y: 724}
+      - {x: 702.216, y: 724}
+      - {x: 587.612, y: 708.124}
+      - {x: 473.516, y: 716.56006}
+      - {x: 359.008, y: 734.2361}
+      - {x: 272.748, y: 791.04395}
+      - {x: 236.23999, y: 828.1919}
+      - {x: 186.38, y: 878.376}
+      - {x: 112, y: 814.896}
+      - {x: 72, y: 745.0879}
+      - {x: 41.00403, y: 625.624}
+      - {x: 15.047974, y: 514.176}
+      - {x: 16, y: 402.66797}
+      - {x: 47.60797, y: 288.6079}
+      - {x: 79.711975, y: 174.6521}
+      - {x: 123.45203, y: 117.87598}
+      - {x: 192.84799, y: 64.42407}
+      - {x: 765.6712, y: 471.69897}
+      - {x: 511.8219, y: 472.32886}
+      - {x: 266.57016, y: 565.32007}
+      - {x: 263.67853, y: 378.4187}
+      indices: 21000000200000000100000007000000060000002300000008000000070000002300000024000000230000000400000009000000080000000f0000000b0000000a0000000d0000000e0000000a000000090000002300000010000000080000000d0000000c0000000b000000150000001400000024000000140000002300000024000000120000002300000013000000140000001300000023000000250000001500000024000000090000000f0000000e000000120000001100000023000000110000001000000023000000100000000f000000080000000400000023000000050000000a0000000e0000000d0000002300000006000000050000001d0000002500000026000000200000001f000000260000000000000022000000210000002000000026000000010000000300000002000000260000000100000026000000020000002400000026000000250000000000000021000000010000001e000000260000001f000000250000001d0000001c0000001a000000170000001b0000001b000000250000001c000000260000001e0000001d0000001700000016000000250000002500000016000000150000001a000000190000001800000018000000170000001a00000017000000250000001b000000030000002600000024000000030000002400000004000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 1, y: 2}
+      - {x: 2, y: 3}
+      - {x: 4, y: 3}
+      - {x: 4, y: 5}
+      - {x: 6, y: 5}
+      - {x: 6, y: 7}
+      - {x: 8, y: 7}
+      - {x: 9, y: 8}
+      - {x: 10, y: 9}
+      - {x: 11, y: 10}
+      - {x: 12, y: 11}
+      - {x: 13, y: 12}
+      - {x: 14, y: 13}
+      - {x: 15, y: 14}
+      - {x: 16, y: 15}
+      - {x: 17, y: 16}
+      - {x: 17, y: 18}
+      - {x: 19, y: 18}
+      - {x: 20, y: 19}
+      - {x: 21, y: 20}
+      - {x: 22, y: 21}
+      - {x: 22, y: 23}
+      - {x: 24, y: 23}
+      - {x: 24, y: 25}
+      - {x: 26, y: 25}
+      - {x: 27, y: 26}
+      - {x: 28, y: 27}
+      - {x: 29, y: 28}
+      - {x: 30, y: 29}
+      - {x: 31, y: 30}
+      - {x: 32, y: 31}
+      - {x: 33, y: 32}
+      - {x: 34, y: 33}
+      - {x: 34, y: 0}
+      weights:
+      - weight[0]: 0.99999994
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.8324646
+        weight[1]: 0.16753542
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 2
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.5617899
+        weight[1]: 0.4382101
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.73024714
+        weight[1]: 0.26975283
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 1
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.53868914
+        weight[1]: 0.46131086
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 2
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.99999994
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.8941532
+        weight[1]: 0.10584687
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 2
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.53195834
+        weight[1]: 0.4680417
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 1
+        boneIndex[1]: 2
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.65727496
+        weight[1]: 0.34272504
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 1
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.8395089
+        weight[1]: 0.16049118
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 1
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.8755216
+        weight[1]: 0.12447841
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.53936374
+        weight[1]: 0.46063623
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.839047
+        weight[1]: 0.16095299
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 2
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.99999994
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 0.99999994
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 2
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+      - weight[0]: 1
+        weight[1]: 0
+        weight[2]: 0
+        weight[3]: 0
+        boneIndex[0]: 0
+        boneIndex[1]: 0
+        boneIndex[2]: 0
+        boneIndex[3]: 0
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_1
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 2928
+        width: 1361
+        height: 968
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6420ca5a912550800000000000000
+      internalID: 6134353882016672366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_2
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 2960
+        width: 1368
+        height: 904
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970a3a545b75c8ad0800000000000000
+      internalID: -2698685640632721287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1564
+        width: 1348
+        height: 968
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f4b40b228b9f6a0800000000000000
+      internalID: -6414893735086436516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_4
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1600
+        width: 2733
+        height: 896
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12b91e842d25b430800000000000000
+      internalID: 3797991495783002653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 1360
+        height: 576
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0466fcad3298d77d0800000000000000
+      internalID: -2919026196378327488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_6
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 80
+        width: 1320
+        height: 1220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f594f32536bc6e20800000000000000
+      internalID: 3345248962582189555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toon_muzzleflash_side_spritesheet_1_7
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 176
+        width: 1376
+        height: 1027
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397099544763f13d0800000000000000
+      internalID: -3233806134416963693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1314b2a93d17f784f937b4fad899c4ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
